@@ -97,16 +97,67 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* <!--
+   ~~~~~~~~~~ Start header ~~~~~~~~~~~~~~
+   --> */
+   header {
+     height: 33vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   header section{
+     width: 70%;
+     height: 90%;
+     text-align: center;
+   }
+
+   /* <!--
+   ~~~~~~~~~~ End header ~~~~~~~~~~~~~~
+   --> */
+
+   /* <!--
+   ~~~~~~~~~~ Start Main ~~~~~~~~~~~~~~
+   --> */
+   aside {
+     width: 20%;
+   }
+   main section {
+     width: 75%;
+   }
+   main {
+     display: flex;
+     justify-content: space-between;
+   }
+   h2 {
+     text-align: center;
+   }
+   aside article {
+     width: 90%;
+     margin: 2em auto;
+   }
 
 
+   /* <!--
+   ~~~~~~~~~~ End Main ~~~~~~~~~~~~~~
+   --> */
+
+   .dark {
+     background-color: #173753;
+   }
+
+   .light {
+     background-color: blue;
+   }
+
+   .twhite {
+     color: white;
+   }
 
 
-
-
-
-
-
-
+   h1, h2, h3, h4, h5, h6, p, ul {
+    font-family: 'Roboto', sans-serif;
+   }
 
 
 
